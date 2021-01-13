@@ -21,7 +21,7 @@ module.exports = {
     let resultsEmbed = new MessageEmbed()
       .setTitle(`**Results for : ${search}**`)
       .setDescription(`**Reply with the song number you want to play**`)
-      .setColor("#00FFD8")
+      .setColor("#FD025D")
       .setFooter(`Reply with the song number you want to play`);
       
     try {

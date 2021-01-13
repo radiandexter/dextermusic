@@ -8,11 +8,10 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle(`**<a:G_tevar:787423131848933387>  ${message.client.user.username}**`)
+      .setTitle(`**<:dexterwingslogo:798860602126630962> ${message.client.user.username}**`)
       .setDescription("**Here is a list of commands**")
-      .setURL(`https://discord.gg/k7QbPK8Zxs`)
-      .setColor("FFFF00")
-      .setTimestamp();
+      .setURL(`https://discord.gg/VcHyEkeMpb`)
+      .setColor("00FFFF");
       
     commands.forEach((cmd) => {
       helpEmbed.addField(
